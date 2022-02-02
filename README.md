@@ -38,3 +38,8 @@ At this point your service should be working on [localhost](https://localhost)
 Only tested on Mac/Firefox
 
 Contributions wanted
+
+
+## TODO
+- [ ] Make destination port on host configurable by environment variable
+- [ ] Add .devcontainer settings to make windows development easier
