@@ -33,7 +33,6 @@ static_resources:
       - name: envoy.http_connection_manager
         typed_config:
           "@type": type.googleapis.com/envoy.extensions.filters.network.http_connection_manager.v3.HttpConnectionManager
-          # codec_type: auto
           stat_prefix: ingress_http
           http_filters:
           - name: envoy.filters.http.router
@@ -48,11 +47,6 @@ static_resources:
                   prefix: "/"
                 route:
                   cluster: service1
-              # - match:
-              #     prefix: "/service/2"
-              #   route:
-              #     cluster: service2
-          #  config: {}
       transport_socket:
         name: envoy.transport_sockets.tls
         typed_config:
@@ -60,7 +54,6 @@ static_resources:
           common_tls_context:
             tls_certificates:
               - certificate_chain:
-                  #filename: "/etc/example-com.crt"
                   filename: "/etc/envoy/localhost.crt"
                 private_key:
                   filename: "/etc/envoy/localhost.key"
