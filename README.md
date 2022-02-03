@@ -42,5 +42,5 @@ Contributions wanted
 
 
 ## TODO
-- [ x ] Make destination port on host configurable by environment variable
-- [ ] Add .devcontainer settings to make windows development easier
+- [x] Add .devcontainer settings to make windows development easier
+- [ ] Make destination port on host configurable by environment variable
