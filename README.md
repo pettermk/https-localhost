@@ -19,6 +19,7 @@ certificate to be accepted.
 
 ### Run the service
 ```bash
+./generate_ca.sh
 ./generate_certs.sh
 docker-compose up --build
 ```
