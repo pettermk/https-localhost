@@ -35,12 +35,6 @@ Contributions wanted
 ## Hit localhost
 At this point your service should be working on [localhost](https://localhost)
 
-## Caveats
-Only tested on Mac/Firefox
-
-Contributions wanted
-
-
 ## TODO
 - [x] Add .devcontainer settings to make windows development easier
 - [ ] Make destination port on host configurable by environment variable
