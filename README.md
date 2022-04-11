@@ -27,7 +27,7 @@ docker-compose up --build
 ### Trust the certificate
 #### Firefox
 Open [privacy preferences](about:preferences#privacy) and go to certificates -> Show certificates
--> Import and find the `RootCA.pem` file which was created when `generate_certs.sh` was run.
+-> Import and find the `RootCA.crt` file which was created when `generate_certs.sh` was run.
 
 #### Other browsers
 Contributions wanted
